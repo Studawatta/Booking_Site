@@ -17,7 +17,7 @@ const router = express.Router();
 
 //Update
    
-router.put("/:id", verifyUser, updateUser);
+router.put("/:id", verifyAdmin, updateUser);
 
 //Delete
 
